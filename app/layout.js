@@ -1,7 +1,6 @@
 import { Inter } from "next/font/google";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./globals.css";
-import Footer from "./Component/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,9 +14,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>{children}
       <link rel="stylesheet"href="https://fonts.googleapis.com/css?family=Inria Sans"></link>
-        <div className="main-container">  
+        {/* <div className="main-container">  
           <Footer/> 
-        </div> 
+        </div>  */}
       </body>
     </html>
   );
