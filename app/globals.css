@@ -88,6 +88,12 @@ body{
 
     
 }
+@media(max-width:576px) {
+    .test-instraction{
+        width: 280px;
+    }
+    
+}
 .test-url{
     padding-left: 25px;
     margin-bottom: 0;
@@ -132,7 +138,7 @@ button{
     border: 2px solid  #F4D150;
     background-color:  #FEEEB4;
 }
-/* 
+
 .footer-content{
     height: 171px;
     border: solid 1px pink;
@@ -154,4 +160,4 @@ button{
     text-align: center;
     color: #EBE9E6;
    
-}  */
+} 
