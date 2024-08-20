@@ -1,9 +1,9 @@
-import Assessment_header from "./Assessment_header";
+import Responsive_layout from "./Responsive_layout";
 
 const Assessment=()=>{
     return(
         <>
-            <Assessment_header/>
+          <Responsive_layout/>      
         </>
     )
 
