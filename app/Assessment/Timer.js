@@ -3,7 +3,7 @@ const Timer=()=>{
     return(
         <>
             <div className="timer">
-                <img src="Device.png"/>
+                <img src="Device.png" className="timer-image"/>
                 <div className="timer-text">Remaining Time </div>
             </div>
         </>

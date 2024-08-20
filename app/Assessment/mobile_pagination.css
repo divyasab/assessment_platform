@@ -1,5 +1,5 @@
 
-.moblie-pagination{
+.mobile-pagination{
     padding: 20px 18px 20px 18px;
 
 }
@@ -7,7 +7,7 @@
 
 
 
-.moblie-pagination a{
+.mobile-pagination a{
     color: black;
     padding: 7px;
     display: inline-block;
@@ -23,23 +23,23 @@
     font-size: 14px;
     font-weight: 400;
 }
-.moblie-pagination a.active{
+.mobile-pagination a.active{
     background-color:#FEEEB4;
     border: solid 1px #F4D150;
 }
-.moblie-pagination a.active2{
+.mobile-pagination a.active2{
     background-color:#FEEEB4;
     border: solid 1px #F4D150;
     margin-right: 0px;
 }    
-.moblie-pagination a.pagination1{
+.mobile-pagination a.pagination1{
     padding: 0;
     width: 10px;
     height:30px;
     border: none;
     
 }
-.moblie-pagination a.active1{
+.moblile-pagination a.active1{
     background-color: black;
     color: white;
 }

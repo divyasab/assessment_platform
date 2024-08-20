@@ -1,0 +1,50 @@
+
+
+.siderbar-main{
+    background-color:#EBE9E6;
+
+
+}
+.siderbar-contanier{
+    width: 1200px;
+    margin: auto;
+    padding-bottom: 136px;
+    display: flex;
+    background-color:#EBE9E6;
+}
+
+@media (max-width:576px) {
+    .siderbar-contanier{
+        width: 320px;
+    }
+
+    .filter-button{
+        display: block;
+        float: right;
+        margin: 67px 19px 0px 0px;
+        border: solid 1px red;
+        padding: 10px 3px 10px 2px;
+        font-family: "Inria Sans";
+        font-size: 16px;
+        font-weight: 700;
+        color: #4C4B49;
+        border: none;
+        background-color: white;
+        text-transform: uppercase;
+
+    }
+    .filter-logo{
+        margin-right: 12px;
+    }
+    button{
+        width: 103px;
+        height: 39px;
+    }
+
+    
+}
+@media (min-width:576px) {
+    .filter-button{
+        display: none;
+    }
+}

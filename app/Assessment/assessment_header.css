@@ -33,12 +33,6 @@ body{
     .desktop-only {
         display: none;
     }
-    .mobile-timer{
-        display: block;
-        float: left;
-        padding: 23px 0px 0px 20px;
-    }
-
     .moblie-submit{
         display: block;
     }

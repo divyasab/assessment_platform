@@ -1,8 +1,8 @@
-import "./moblie_pagination.css"
-const Moblie_pegination=()=>{
+import "./mobile_pagination.css"
+const Mobile_pegination=()=>{
     return(
         <>
-            <div className="moblie-pagination">
+            <div className="mobile-pagination">
                     <a className="active"href="#">&lt;</a>
                     <a href="#">1</a>
                     <a href="#" className="pagination1">...</a>
@@ -16,4 +16,4 @@ const Moblie_pegination=()=>{
     )
     
 }
-export default Moblie_pegination;
+export default Mobile_pegination;

@@ -1,0 +1,133 @@
+
+.siderbar-content{
+    width: 284px ;
+    height: 375px ;
+    margin: 127px 0px 0px 103px ;
+    border-radius: 12px;
+    border: 1px dashed var(--Dark-c, #777671);
+    background: var(--Light-b, #F9F7F2);
+}
+.small-text{
+    margin: auto;
+    height: 19px;
+    width: 197px;
+    color: #4C4B49;
+    margin-top: 36px;
+    margin-bottom: 36px;
+    font-size: 16px;
+}
+.inside-function{
+    width: 202px;
+    height: 230px ;
+    margin: auto;
+    color: var(--Dark-a, #1F1E1C);
+    font-family: "Inria Sans";
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.fillter-items{
+    height: 77px;
+    width: 201px;
+}
+.fillter-values{
+    height: 42px;
+    margin: 16px 0px 48px 0px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+.fillter-score{
+    width: 42px;
+    text-align: center;
+    border-radius:4px;
+    float: left;
+    color: #F9F7F2;
+    padding: 10px 0px 10px 0px;
+    margin-right: 9px;
+    border: solid 1px #4C4B49;
+    background-color:#4C4B49;
+}
+
+.fillter-score1{
+    width: 42px;
+    margin-right: 10px;
+    text-align: center;
+    float: left;
+    border-radius:4px;
+    color:#1F1E1C;
+    padding: 10px 0px 10px 0px;
+    border: solid 1px #F4D150;
+    background-color: #FEEEB4;
+}
+.fillter-score2{
+    width: 42px;
+    text-align: center;
+    border-radius:4px;
+    float: left;
+    color: #1F1E1C;
+    padding: 10px 0px 10px 0px;
+    border: solid 1px #F4D150;
+    background-color: #FEEEB4;
+}
+.question-count{
+    margin-top: 16px ;
+    height: 68px;
+}
+
+.question-attempt{
+    margin-right: 3px;
+    padding: 6px 12px ;
+    float: left;
+    color: white;
+    border-radius: 54px;
+    border: 1px solid  #4C4B49;
+    background-color: #4C4B49;
+}
+.question-text{
+    font-size: 14px;
+    line-height: 120%;
+}
+.question-attempt1{
+    float: left;
+    padding: 6px 12px;
+    color: #1F1E1C;
+    border-radius: 54px;
+    border: 1px solid  #F4D150;
+    background-color:  #FEEEB4;
+
+}
+.question-text1{
+    font-size: 14px;
+    line-height: 120%;
+}
+.question-unattempt{
+    height: 29px;
+    float: left;
+    margin-top: 6px;
+    border-radius: 54px;
+    padding: 6px 12px;
+    color: #1F1E1C;
+    text-align: center;
+    border: 1px solid #F4D150;
+    background-color:  #FEEEB4;
+
+}
+.question-text2{
+    font-size: 14px;
+    line-height: 120%;
+}
+
+@media (max-width:576px) {
+   
+    .siderbar-content {
+        display: none; 
+    }
+    
+}
+@media (min-width:576px) {
+    .filter-button{
+        display: none;
+    }
+}
