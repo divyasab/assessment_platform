@@ -1,0 +1,48 @@
+
+
+.pagination{
+    width: 440px;
+    margin: 25px 0px 17px 235px;
+   
+}
+.pagination a {
+    
+    color: black;
+    padding: 7px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid  #E0DFDA;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    line-height: 14px;
+    margin-right: 16px;
+    text-decoration: none;
+    font-family: "Inria Sans";
+    font-weight: 400;
+}
+.pagination a.active{
+    background-color: #EBE9E6;
+    color: white;
+}
+
+.pagination a.active1 {
+    background-color: #4C4B49;
+    color: white;
+}
+.pagination a.active2{
+    background-color:#FEEEB4;
+    border: solid 1px #F4D150;
+    margin-right: 0px;
+
+
+}
+
+@media (max-width:576px) {
+
+    
+}
+@media (min-width:576px) {
+    
+    
+}
