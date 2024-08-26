@@ -1,13 +1,14 @@
-import Responsive_layout from "./Responsive_layout";
+import Assessment_header from "./Assessment_header";
 import Siderbar_container from "./Siderbar_container";
 
 const Assessment=()=>{
     return(
         <>
-          <Responsive_layout/>  
-          < Siderbar_container/>    
+          <Assessment_header/>  
+          <Siderbar_container/>    
         </>
-    )
+    );
 
-}
+};
+
 export default Assessment;

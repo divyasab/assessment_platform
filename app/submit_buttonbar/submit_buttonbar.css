@@ -1,0 +1,78 @@
+body{
+    font-family: Inter;
+}
+.submit-container{
+    background-color: #EBE9E6;;
+    padding: 103px 0px 428px 0px;
+}
+@media (max-width:756px) {
+    .submit-container{
+       padding-bottom: 75px;
+    }
+    
+}
+.submit-content{
+    margin: auto;
+    width: 705px;
+    height: 516px;
+    padding-top: 65px;
+    background-color: #FCFAFA;
+}
+@media(max-width:576px) {
+    .submit-content{
+        width: 320px;
+    }
+    
+}
+.submit-logo{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: #88BE37;
+    margin: auto;
+}
+.correct-logo{
+    padding: 5px 0px 16px 6px;
+}
+.submit-intraction{
+    width: 319px;
+    height: 141px;
+    margin: auto;
+    margin-top: 22px;
+}
+.submit-massage{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 120%; 
+    letter-spacing: -0.48px
+}
+.submit-massage1{
+    text-align: center;
+    color: #000;
+    font-size: 14px;
+    margin-top: 36px;
+    font-weight: 600;
+    line-height: 160%; 
+}
+.submit-massage2{
+    color: hsl(0, 0%, 0%);
+    width: 289px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    margin:12px 9px 0px 12px;
+}
+.check-score-button{
+    text-align: center;
+    margin-top: 98px;
+}
+.check-button{
+    width: 222px;
+    margin:0;
+    color: var(--Dark-a, #1F1E1C);
+    font-size: 18px;
+    font-weight: 400;
+
+
+}

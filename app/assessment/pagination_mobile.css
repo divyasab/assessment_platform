@@ -4,9 +4,6 @@
 
 }
 
-
-
-
 .mobile-pagination a{
     color: black;
     padding: 7px;
@@ -42,9 +39,4 @@
 .moblile-pagination a.active1{
     background-color: black;
     color: white;
-}
-@media(max-width:576px) {
-
-    
-    
 }

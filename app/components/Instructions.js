@@ -35,7 +35,7 @@ const Instractions=()=>{
                         
                     </div>
                     <div className="click-button">
-                        <a  href="/Assessment">
+                        <a  href="/assessment">
                             <button>Lets Start! </button>
                         </a>    
                     </div>   

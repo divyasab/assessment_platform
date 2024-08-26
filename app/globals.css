@@ -72,22 +72,20 @@ body{
     .context{
         text-align: center;
     }
-    
 }
+
 .instraction-text{
     margin-top: 16px;
     font-size: 14px;
     color: #4C4B49;
-
 }
 .test-instraction{
     width: 475px;
     margin-top: 8px;
     font-size: 14px;
     color: #4C4B49;
-
-    
 }
+
 @media(max-width:576px) {
     .test-instraction{
         width: 280px;
@@ -161,3 +159,36 @@ button{
     color: #EBE9E6;
    
 } 
+
+
+@media (max-width: 576px) {
+    .mobile-only {
+        display: block;
+    }
+    .desktop-only {
+        display: none;
+    }
+    .submit-button1{
+        display: block;
+        height: 54px;
+        width: 130px;
+        margin:0px 0px 9px 72px ;
+        padding: 12px 35px;
+        position: fixed;
+        right: 12px;  
+        z-index: 1000;
+        bottom: 171px;
+    }
+    
+    
+}
+
+@media (min-width: 576px) {
+    .mobile-only {
+        display: none;
+    }
+    .desktop-only {
+        display: block;
+    }
+   
+}

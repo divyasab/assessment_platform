@@ -119,15 +119,3 @@
     line-height: 120%;
 }
 
-@media (max-width:576px) {
-   
-    .siderbar-content {
-        display: none; 
-    }
-    
-}
-@media (min-width:576px) {
-    .filter-button{
-        display: none;
-    }
-}

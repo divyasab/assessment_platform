@@ -4,7 +4,7 @@ const Timer=()=>{
         <>
             <div className="timer">
                 <img src="Device.png" className="timer-image"/>
-                <div className="timer-text">Remaining Time </div>
+                <div className="timer-text desktop-only">Remaining Time </div>
             </div>
         </>
     )

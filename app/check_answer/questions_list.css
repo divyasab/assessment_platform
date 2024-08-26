@@ -1,0 +1,118 @@
+.questions-list{
+    width: 595px;
+    margin: auto;
+}
+@media (max-width:576px) {
+    .questions-list{
+        width: 320px;
+    }
+    
+}
+
+.question-first{
+    height: 28px;
+}
+.correct-logo1{
+    width: 28px;
+    height: 28px;
+    float: left;
+    margin-right: 16px;
+    border-radius: 50%;
+    background-color: #88BE37;
+}
+.correct-logo-list{
+    width: 28px;
+    height: 28px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 16px;
+    border-radius: 50%;
+    background-color: #E68086;
+}
+.wrong-icon{
+    font-size: 20px;
+    color: #F9F7F2;
+}
+.question-font{
+    color: #1F1E1C;
+    width: 20px;
+    float: left;
+    margin-right: 16px;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%; 
+}
+.question-logo{
+    width: 28px;
+    height: 28px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #4C4B49;
+}
+.question-icon{
+    width: 17px;
+    height: 2px;
+    background-color: #F9F7F2;
+    border-radius: 1px;
+}
+.question-content{
+    width: 560px;
+    height: 284px;
+    border-radius: 12px;
+    margin: 19px 0px 53px 31px;
+    background:  #FCFAFA;
+}
+@media (max-width:576px) {
+    .question-content{
+        width: 260px;
+        height: 226px;
+    }
+}
+.question-list-line{
+    width: 580px;
+    height: 1px;
+    background-color:  #8F887C ;
+    margin: 20px 0px 20px 0px;
+
+    
+}
+@media (max-width:576px) {
+    .question-list-line{
+        width: 321px;
+    }
+    
+}
+
+.question-logo-list{
+    width: 28px;
+    height: 28px;
+    float: right;
+    display: flex;
+    color: #4C4B49;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #FEEEB4;
+    border: solid 1px #F4D150;
+
+}
+.unattempted-logo1{
+    width: 28px;
+    height: 28px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 16px;
+    border-radius: 50%;
+    background-color:#E0DFDA;
+
+
+}

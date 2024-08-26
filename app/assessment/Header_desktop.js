@@ -1,7 +1,8 @@
 import Timer from "./Timer";
-import Desktop_pagination from "./Desktop_pagination";
-import "./assessment_header.css"
-const Assessment_header = () => {
+import Pagination_desktop from "./Pagination_desktop";
+import "./header_desktop.css";
+
+const Header_desktop = function() {
     return (
         <div className="main-container">
             <div className="main-header">
@@ -9,13 +10,13 @@ const Assessment_header = () => {
                     <img src="Logo.png" alt="Logo" />
                 </div>
                 <Timer />
-                <Desktop_pagination />
+                <Pagination_desktop />
                 <a href="submit_buttonbar">
-                    <button className="submit-button">Submit</button>
+                    <button className="submit-button ">Submit</button>
                 </a>
             </div>
         </div>
     );
 };
 
-export default Assessment_header;
+export default Header_desktop;

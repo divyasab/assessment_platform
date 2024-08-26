@@ -1,5 +1,5 @@
-import Header from "./Component/Header"
-import Instractions from "./Component/Instructions";
+import Header from "./components/Header"
+import Instractions from "./components/Instructions";
 
 
 const Page=()=>{

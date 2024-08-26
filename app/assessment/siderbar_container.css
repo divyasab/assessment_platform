@@ -17,9 +17,12 @@
     .siderbar-contanier{
         width: 320px;
     }
-
-    .filter-button{
+    .mobile-timer{
         display: block;
+        float: left;
+        margin: 23px 0px 0px 19px;
+    }
+    .filter-button{
         float: right;
         margin: 67px 19px 0px 0px;
         border: solid 1px red;
@@ -42,9 +45,4 @@
     }
 
     
-}
-@media (min-width:576px) {
-    .filter-button{
-        display: none;
-    }
 }
