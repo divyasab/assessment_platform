@@ -1,6 +1,6 @@
 .timer{
     height: 180px;
-    margin-top: 7px;
+    margin-top: 25px;
 }
 @media(max-width:576px) {
     .timer{

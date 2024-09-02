@@ -26,8 +26,8 @@ const Instractions=()=>{
                             <span>Please ensure a stable internet connection. If you encounter any </span>issues, contact support immediately.
                         </div>
                         <div className="last-instraction">
-                            <span>Click 'Lets Start' to begin the test.</span> 
-                            <span><b>Good luck!</b></span>
+                            <div>Click 'Lets Start' to begin the test.</div> 
+                            <div><b>Good luck!</b></div>
                         </div> 
                         
                     </div>
