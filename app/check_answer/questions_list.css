@@ -64,12 +64,11 @@
 }
 
 .questions{
-    height: 276px;
     border: solid 1px white;
     border-radius: 12px;
     margin: 19px 0px 53px 31px;
     background-color: #FCFAFA;
-    padding: 40px 40px 40px 40px;
+    padding: 40px 40px;
 
 }
 @media (max-width:576px) {
@@ -81,7 +80,6 @@
         padding: 40px 30px;
     }
     
-    
 }
 .question-options{
     color: var(--Dark-a, #1F1E1C);
@@ -92,18 +90,21 @@
     line-height: 160%;
 }
 .options{
+    height: 132px;
     margin-top: 28px;
+    justify-content: space-between;
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;  
 }  
 .option-content{
-    margin-bottom: 12px;
+    
 }
+
 .option-icon,.option-icon1,.option-icon2{
     width: 15px;
     height: 15px;
     float: left;
-    margin: 4px 16px 0px 0px ;
+    margin: 4px 16px 0px 7px ;
     border-radius: 50%;
     background-color: #FEEEB4;
     border: solid 1px #1F1E1C;
@@ -115,23 +116,26 @@
 
 .option-text,.option-highlight{
     text-align: center;
-    color: var(--Dark-b, #4C4B49);
+    color: #4C4B49;
     float: left;
     font-family: Inter;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
 }
+
 @media (max-width:576px) {
-    .option-text{
-        margin-right: 25px;
+    .join-text{
+        width:270px;
     }
-    
 }
+
 .option-highlight{
     width: 247px;
+    height: 35px;
     border: solid 1px  #88BE37;
     margin-right: 15px;
+    padding-top: 5px;
 
 }
 .option-text1{
@@ -139,13 +143,16 @@
     font-family: "Just Me Again Down Here";
     font-size: 16px;
     font-weight: 400;
-    display: flex;
+    margin-top: 4px;
     
 }
 @media (max-width:576px) {
     .option-text1{
         display:block ;
-        margin-top: 10px;
+        margin-top: 5px;
+        float: right;
+
+        
     }
     
 }

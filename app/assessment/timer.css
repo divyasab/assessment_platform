@@ -46,18 +46,17 @@
     }
 }
 .timer-content{
-    width: 74px;
-    height: 50px;
+    width: auto;
+    height: auto;
+}
+.timer-context{
+    display: flex;
 }
 @media (max-width:576px) {
-    .timer-content{
-        width: 60px;
-        height: 37px;
+    .timer-context{
+        height: 25px;
     }
     
-}
-.timer-text0{
-    display: flex;
 }
 .timer-number{
     color: var(--Error, #E68086);
@@ -80,16 +79,26 @@
 }
 .time-text,.time-text1{
     float: left;
-    color: var(--Dark-a, #1F1E1C);
+    color:  #1F1E1C;
     font-family: Inter;
     font-size: 12px;
-    font-style: normal;
     font-weight: 500;
+}
+
+.time-text{
     margin-left: 5px;
-    line-height: normal;
+
+
+}
+@media (max-width:576px) {
+    .time-text{
+        margin:0;
+    }
+    
 }
 .time-text1{
     float: right;
+    margin-right: 5px;
 }
 @media (max-width:576px) {
     .time-text1{

@@ -41,6 +41,7 @@ body{
     margin-top: 22px;
 }
 .submit-massage{
+    color: #000;
     text-align: center;
     font-size: 24px;
     font-weight: 600;
@@ -61,7 +62,7 @@ body{
     text-align: center;
     font-size: 15px;
     font-weight: 400;
-    margin:12px 9px 0px 12px;
+    margin:12px 9px 0px 23px;
 }
 .check-score-button{
     text-align: center;

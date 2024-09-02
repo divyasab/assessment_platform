@@ -13,7 +13,7 @@ const Pagination_desktop = function() {
                 <div className="mobile-only">
                     <a href="#" className="pagination1  ">...</a>
                 </div>    
-                <a href="#">5</a>
+                <a className="active3"href="#">5</a>
                 <div className="desktop-only">
                     <a href="#">6</a>
                     <a href="#">7</a>

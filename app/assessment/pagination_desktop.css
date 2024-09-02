@@ -63,11 +63,19 @@
     }
     
 }
-.pagination a.active2{
-    background-color:#FEEEB4;
-    border: solid 1px #F4D150;
-    margin-right: 0px;
-
+@media (max-width:576px) {
+    .pagination a.active3{
+        background-color: #4C4B49;
+        color: #FCFAFA;
+    }
+    
+}
+@media screen {
+    .pagination a.active2{
+        background-color:#FEEEB4;
+        border: solid 1px #F4D150;
+        margin-right: 0px;
+    }    
 
 }
 

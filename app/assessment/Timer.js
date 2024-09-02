@@ -7,15 +7,13 @@ const Timer = function(){
                 <div className="timer-container">
                     <div className="inside-timer">
                         <div className="timer-content">
-                            <div className="timer-text0">
+                            <div className="timer-context">
                                 <div className="timer-number">50</div>
                                 <span className="timer-symbol">:</span>
                                 <span className="timer-number">20</span>  
                             </div>    
-                            <div>
-                                <span className="time-text">min</span>
-                                <span className="time-text1">Sec</span>
-                            </div>    
+                                <div className="time-text">min</div>
+                                <div className="time-text1">Sec</div>
                         </div>    
                     </div>
                 </div>
