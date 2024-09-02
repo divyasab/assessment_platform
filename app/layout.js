@@ -16,6 +16,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>{children}
       <link rel="stylesheet"href="https://fonts.googleapis.com/css?family=Inria Sans"></link>
       <link rel="stylesheet"href="https://fonts.googleapis.com/css?family=Jost"></link>
+      <link rel="stylesheet"href="https://fonts.googleapis.com/css?family=Just Me Again Down Here"></link>
 
           <Footer/> 
       </body>

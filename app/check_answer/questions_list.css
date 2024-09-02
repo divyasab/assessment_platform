@@ -62,12 +62,92 @@
     background-color: #F9F7F2;
     border-radius: 1px;
 }
-.question-content{
-    width: 560px;
-    height: 284px;
+
+.questions{
+    height: 276px;
+    border: solid 1px white;
     border-radius: 12px;
     margin: 19px 0px 53px 31px;
-    background:  #FCFAFA;
+    background-color: #FCFAFA;
+    padding: 40px 40px 40px 40px;
+
+}
+@media (max-width:576px) {
+    
+    .questions{
+        width: 320px;
+        margin: 0;
+        margin-top: 19px;
+        padding: 40px 30px;
+    }
+    
+    
+}
+.question-options{
+    color: var(--Dark-a, #1F1E1C);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+}
+.options{
+    margin-top: 28px;
+    display: flex;
+    flex-direction: column; 
+}  
+.option-content{
+    margin-bottom: 12px;
+}
+.option-icon,.option-icon1,.option-icon2{
+    width: 15px;
+    height: 15px;
+    float: left;
+    margin: 4px 16px 0px 0px ;
+    border-radius: 50%;
+    background-color: #FEEEB4;
+    border: solid 1px #1F1E1C;
+}
+.option-icon1,.option-icon2{
+    background-color: #FCFAFA;
+
+}
+
+.option-text,.option-highlight{
+    text-align: center;
+    color: var(--Dark-b, #4C4B49);
+    float: left;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+@media (max-width:576px) {
+    .option-text{
+        margin-right: 25px;
+    }
+    
+}
+.option-highlight{
+    width: 247px;
+    border: solid 1px  #88BE37;
+    margin-right: 15px;
+
+}
+.option-text1{
+    color: #000;
+    font-family: "Just Me Again Down Here";
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    
+}
+@media (max-width:576px) {
+    .option-text1{
+        display:block ;
+        margin-top: 10px;
+    }
+    
 }
 @media (max-width:576px) {
     .question-content{

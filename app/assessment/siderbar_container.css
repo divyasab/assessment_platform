@@ -20,7 +20,9 @@
     .mobile-timer{
         display: block;
         float: left;
-        margin: 23px 0px 0px 19px;
+        width: 100px;
+        height: 100px;
+        margin: 23px 0px 50px 19px;
     }
     .filter-button{
         float: right;

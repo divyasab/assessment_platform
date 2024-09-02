@@ -40,13 +40,10 @@ const Questions_score = function() {
                         </div>
                     </div> 
                 </div>
-               
             </div>
             <div className="question-headline">Check Your Answers</div>
             <div className="question-line"></div>    
         </div>    
-          
-
     );
 };
 

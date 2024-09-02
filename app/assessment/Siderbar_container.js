@@ -6,16 +6,23 @@ import Timer from "./Timer";
 const Siderbar_container = function() {
     return(
         <div className="siderbar-main">
-            <div className="mobile-timer mobile-only">
+            <div className="mobile-only">
                 <Timer/>
             </div>
-            <button className="filter-button mobile-only">
-                <img src="filterLogo.png" className="filter-logo"/>
-                 Filters
-            </button>
+            <div className="mobile-only">
+                <button className="filter-button">
+                    <img src="filterLogo.png" className="filter-logo"/>
+                        Filters
+                </button>
+            </div>    
             <div className="siderbar-contanier">
                 <Filter_sidebar/>
                 <div className="question-contanier">
+                    <div className="moblie-only">
+                        <a href="/submit_buttonbar">
+                            <button className="submit-button1  mobile-only ">Submit</button>
+                        </a>
+                    </div>      
                     <Question_container/>
                     <Question_container/>
                     <Question_container/>

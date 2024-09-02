@@ -9,13 +9,27 @@ function Question_container(){
                 <div className="task-score">Score +1</div>
             </div>  
             <div className="questions">
-                <div className="question-option"></div>
+                    <div className="question-options" >Which of the following committees recommended inclusion of fundamental duties ?</div>
+                    <div className="options">
+                        <div className="option-content">
+                            <div className="option-icon"></div>
+                            <span className="option-text">Tarapore Committee</span>
+                        </div>    
+                        <div className="option-content">
+                            <div className="option-icon1"></div>
+                            <span className="option-text">Radha Krishnan Committee</span>
+                        </div>    
+                        <div className="option-content">
+                            <div className="option-icon1"></div>
+                            <span className="option-text">Swaran Singh Committee</span>
+                        </div>    
+                        <div className="option-content">
+                            <div className="option-icon1"></div>
+                            <span className="option-text">Balwantrai Mehta Committee</span>
+                        </div>    
+
+                    </div>
             </div>
-            <div className="moblie-only">
-                <a href="/submit_buttonbar">
-                    <button className="submit-button1  mobile-only ">Submit</button>
-                </a>
-            </div>      
         </div>
     );
 };

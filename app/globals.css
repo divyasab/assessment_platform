@@ -28,7 +28,7 @@ body{
 .headline{
     font-weight: 600;
     text-align: center;
-    padding: 55px 0px 10px 0px;
+    padding: 55px 0px 19px 0px;
     color: var(--Dark-b, #4C4B49);
 
 }
@@ -39,7 +39,7 @@ body{
 }
 
 .instraction-container{
-    width: 706px;
+    width: 705px;
     margin: auto;
     padding: 40px 0px 49px 0px;
     background-color:#F9F7F2;
@@ -51,14 +51,12 @@ body{
     
 }
 .instraction-content{
-    height: 408px;
     width: 471px;
     margin: auto;
 }
 @media(max-width:576px) {
     .instraction-content{
         width: 280px;
-        height: 583px;
     }
     
 }
@@ -118,7 +116,7 @@ body{
 }
 @media (max-width:576px) {
     .instruction-line{
-        width: 320px;
+        width: 280px;
     }
     
 }
@@ -126,7 +124,7 @@ body{
     text-align: center;
    
 }
-button{
+.click{
     width: 159px;
     margin-top: 39px;
     font-size: 18px;
@@ -175,9 +173,12 @@ button{
         margin:0px 0px 9px 72px ;
         padding: 12px 35px;
         position: fixed;
-        right: 12px;  
+        right: 22px;  
         z-index: 1000;
-        bottom: 171px;
+        bottom: 177px;
+        border: 2px solid  #F4D150;
+        background-color:  #FEEEB4;
+        box-shadow: 0px 4px 7px 0px #B3AE9C;
     }
     
     

@@ -4,8 +4,8 @@
     height: 375px ;
     margin: 127px 0px 0px 103px ;
     border-radius: 12px;
-    border: 1px dashed var(--Dark-c, #777671);
-    background: var(--Light-b, #F9F7F2);
+    border: 1px dashed  #777671;
+    background-color:  #F9F7F2;
 }
 .small-text{
     margin: auto;
@@ -20,7 +20,7 @@
     width: 202px;
     height: 230px ;
     margin: auto;
-    color: var(--Dark-a, #1F1E1C);
+    color: var#1F1E1C;
     font-family: "Inria Sans";
     font-size: 16px;
     font-weight: 400;

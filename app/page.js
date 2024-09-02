@@ -2,7 +2,7 @@ import Header from "./components/Header"
 import Instractions from "./components/Instructions";
 
 
-const Page=()=>{
+const Page=function(){
     return(
         <>
             <Header/>

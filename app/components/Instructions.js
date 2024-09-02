@@ -27,16 +27,14 @@ const Instractions=()=>{
                         </div>
                         <div className="last-instraction">
                             <span>Click 'Lets Start' to begin the test.</span> 
-                            <p><b>Good luck!</b></p>
+                            <span><b>Good luck!</b></span>
                         </div> 
-
-                    </div>
-                    <div className="instruction-line">
                         
                     </div>
+                    <div className="instruction-line"></div>
                     <div className="click-button">
                         <a  href="/assessment">
-                            <button>Lets Start! </button>
+                            <button className="click">Lets Start! </button>
                         </a>    
                     </div>   
 
