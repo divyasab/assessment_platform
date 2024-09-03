@@ -17,6 +17,10 @@
     .siderbar-contanier{
         width: 320px;
     }
+    .siderbar-items{
+        height: 123px;
+        margin-bottom: 58px;
+    }
     .mobile-timer{
         display: block;
         float: left;
@@ -24,9 +28,19 @@
         height: 100px;
         margin: 23px 0px 50px 19px;
     }
+    .second-question-container{
+        position: relative;
+    }
+    .button-main{
+        display: flex;
+        justify-content: end;
+    }
+    .button-main a{
+        margin: 0;
+    }
     .filter-button{
         float: right;
-        margin: 67px 19px 0px 0px;
+        margin-top: 67px;
         border: solid 1px red;
         padding: 10px 3px 10px 2px;
         font-family: "Inria Sans";
