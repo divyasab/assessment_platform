@@ -28,16 +28,9 @@
         height: 100px;
         margin: 23px 0px 50px 19px;
     }
-    .second-question-container{
-        position: relative;
-    }
-    .button-main{
-        display: flex;
-        justify-content: end;
-    }
-    .button-main a{
-        margin: 0;
-    }
+    
+
+    
     .filter-button{
         float: right;
         margin-top: 67px;
@@ -55,10 +48,7 @@
     .filter-logo{
         margin-right: 12px;
     }
-    button{
-        width: 103px;
-        height: 39px;
-    }
+    
 
     
 }

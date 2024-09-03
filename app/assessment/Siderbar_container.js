@@ -17,9 +17,11 @@ const Siderbar_container = function() {
                                     Filters
                             </button>
                         </div>
-                        <a href="/submit_buttonbar">
-                            <button className="submit-button1  mobile-only ">Submit</button>
-                        </a>
+                        <div className="button-main">
+                            <a href="/submit_buttonbar">
+                                <button className="submit-button1  mobile-only ">Submit</button>
+                            </a>
+                        </div>    
                     </div>      
                     <Question_container/>
                     <Question_container/>
