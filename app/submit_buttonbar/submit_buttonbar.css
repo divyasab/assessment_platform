@@ -21,6 +21,7 @@ body{
     .submit-content{
         padding: 54px 0px 72px 0px;
         margin: auto 20px ;
+        width: auto;
     }
     
 }
