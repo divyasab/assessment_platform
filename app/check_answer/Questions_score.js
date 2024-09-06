@@ -19,7 +19,7 @@ const Questions_score = function() {
                             <span className="count">3</span> 
                         </div>
                     </div>  
-                    <div className="score-line"></div> 
+                    <div className="score-line desktop-only"></div> 
                     <div className="question-correct">
                         <div className="correct-logo">
                             <img src="correct_logo.svg" className="correct-image" />
@@ -29,7 +29,7 @@ const Questions_score = function() {
                             <span className="count">35</span>
                         </div>
                     </div>
-                    <div className="score-line"></div> 
+                    <div className="score-line desktop-only"></div> 
                     <div className="question-wrong">
                         <div className="wrong-logo">
                             <div className="wrong-icon">&#10005;</div>

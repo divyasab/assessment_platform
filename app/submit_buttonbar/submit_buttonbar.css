@@ -19,8 +19,8 @@ body{
 }
 @media(max-width:576px) {
     .submit-content{
-        width: 320px;
         padding: 54px 0px 72px 0px;
+        margin: auto 20px ;
     }
     
 }
