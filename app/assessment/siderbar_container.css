@@ -14,8 +14,21 @@
 }
 
 @media (max-width:576px) {
+
+    .siderbar-main{
+        background-color:#EBE9E6;
+        padding: 23px 0px 219px 0px;
+
+    
+    }
     .siderbar-contanier{
-        width: 320px;
+        width: auto;
+        display: block;
+        margin: auto 20px; 
+        padding: 0;
+        
+
+
     }
     .siderbar-items{
         height: 123px;
@@ -33,7 +46,7 @@
     
     .filter-button{
         float: right;
-        margin-top: 67px;
+        margin-top: 44px;
         border: solid 1px red;
         padding: 10px 3px 10px 2px;
         font-family: "Inria Sans";

@@ -28,8 +28,22 @@ body{
 }
 .button-main a{
    margin-left: 73px;
+   text-decoration: none;
 
 }
+@media (max-width: 576px) {
+
+    .button-main{
+        display: block;
+        right: 21px;
+        position: fixed; 
+        z-index: 1000;
+        bottom: 144px;
+       
+       
+    }
+}    
+
 .submit-button{
     width: 130px;
     margin:9px 0px 9px 0px ;
@@ -41,6 +55,3 @@ body{
     box-shadow: 0px 4px 7px 0px #B3AE9C;
 
 }
-
-
-

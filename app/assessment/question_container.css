@@ -86,13 +86,11 @@ body{
 @media (max-width:576px) {
 
     .question-contanier{
-        width: 320px;
-        margin: 0;
+        width: auto;
+        margin: auto;
         
     }
-    .questions{
-        width: 320px;
-    }
+    
     
     .task-score{
         display: block;
