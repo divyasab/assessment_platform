@@ -12,7 +12,12 @@
     display: flex;
     background-color:#EBE9E6;
 }
+.siderbar-context{
+    margin-left: 103px;
+    position: relative;
+    bottom: 72px;
 
+}
 @media (max-width:576px) {
 
     .siderbar-main{
@@ -26,13 +31,23 @@
         display: block;
         margin: auto 20px; 
         padding: 0;
-        
 
+        
+    }
+    .siderbar-context{
+        height: 123px;
+        margin: 0;
+        position: static;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 58px;
 
     }
     .siderbar-items{
         height: 123px;
         margin-bottom: 58px;
+        display: flex;
+        justify-content: space-between;
     }
     .mobile-timer{
         display: block;
@@ -42,20 +57,19 @@
         margin: 23px 0px 50px 19px;
     }
     
-
-    
     .filter-button{
-        float: right;
+        height: 39px;
+        width: 104px;
         margin-top: 44px;
-        border: solid 1px red;
-        padding: 10px 3px 10px 2px;
         font-family: "Inria Sans";
         font-size: 16px;
         font-weight: 700;
         color: #4C4B49;
         border: none;
-        background-color: white;
         text-transform: uppercase;
+        border-radius: 6px;
+        border: 2px solid #E0DFDA;
+        background:  #FCFAFA;
 
     }
     .filter-logo{

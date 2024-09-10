@@ -113,13 +113,17 @@ body{
 }
 .instruction-line{
     width: 620px;
+    height: 1px;
+    background-color:#4C4B49 ;
     margin: auto;
     margin-top: 40px;
-    border:1px solid  #4C4B49;
 }
 @media (max-width:576px) {
     .instruction-line{
-        width: 280px;
+        margin: auto 20px;
+        width: auto;
+        margin-top: 40px;
+
     }
     
 }

@@ -10,10 +10,7 @@ body{
     
 } 
 .main{
-    width: 319px;
-    display: flex;
     margin-right: auto;
-    justify-content: space-between;
 }    
 .main-header{
     width: 1200px;
@@ -26,12 +23,19 @@ body{
     margin: 18px 0px 10px 0px;
     
 }
+
 .button-main a{
    margin-left: 73px;
    text-decoration: none;
 
 }
 @media (max-width: 576px) {
+    .main{
+        margin:0;
+        padding: 18px 0px 18px 0;
+        background: var(--Light-a, #FCFAFA);
+        box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.10);
+    }
 
     .button-main{
         display: block;
@@ -39,10 +43,22 @@ body{
         position: fixed; 
         z-index: 1000;
         bottom: 144px;
-       
-       
+          
     }
-}    
+    .header-logo{
+        margin: 0;
+        
+    }
+    .main-header{
+        width: auto;
+        height: 146px;
+        display: block;
+        text-align: center;
+        margin: 0;
+    }    
+
+       
+}   
 
 .submit-button{
     width: 130px;

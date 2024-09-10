@@ -1,10 +1,10 @@
-import Assessment_header from "./Assessment_header";
+import Header_desktop from "./Header_desktop";
 import Siderbar_container from "./Siderbar_container";
 
 const Assessment=()=>{
     return(
         <>
-          <Assessment_header/>  
+          <Header_desktop/>
           <Siderbar_container/>    
         </>
     );

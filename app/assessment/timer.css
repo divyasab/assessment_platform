@@ -1,11 +1,12 @@
 .timer{
     height: 180px;
-    margin-top: 25px;
-}
+    margin-top: 25px; 
+    margin-left: 57px;
+}   
 @media(max-width:576px) {
     .timer{
         margin: 0;
-        height: 0;
+        height: auto;
     }
 }
 .timer-container{
@@ -22,9 +23,6 @@
     .timer-container{
         width: 100px;
         height: 100px;
-        float: left;
-
-        
     }    
 }
 .inside-timer{
@@ -39,8 +37,8 @@
 }
 @media (max-width:576px) {
     .inside-timer{
-        width: 80px ;
-        height: 80px;
+        width: 85px ;
+        height: 85px;
 
     }
 }
@@ -106,10 +104,10 @@
 }
 
 .timer-text{
-    text-align: center;
     color: #1F1E1C;
     font-family: Inter;
     margin-top: 10px;
+    margin-left: 26px;
     font-size: 14px;
     font-weight: 600;
     

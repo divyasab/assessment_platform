@@ -7,25 +7,17 @@ const Siderbar_container = function() {
     return(
         <div className="siderbar-main">
             <div className="siderbar-contanier">
-                <Filter_sidebar/>
-                <div className="mobile-only">
-                    <div className="siderbar-items">   
-                        <Timer/>
+                <div className="siderbar-context">
+                        <Timer />
+                        <Filter_sidebar/>
+                    <div className="mobile-only">
                         <button className="filter-button">
                             <img src="filterLogo.png" className="filter-logo"/>
                                 Filters
                         </button>
                     </div>
                 </div>       
-                   
                 <div className="question-contanier">
-                    <div className="mobile-only">
-                        <div className="button-main">
-                            <a href="/submit_buttonbar">
-                                <button className="submit-button  mobile-only ">Submit</button>
-                            </a>
-                        </div>    
-                    </div>      
                     <Question_container/>
                     <Question_container/>
                     <Question_container/>

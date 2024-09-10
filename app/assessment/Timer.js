@@ -12,12 +12,12 @@ const Timer = function(){
                                 <span className="timer-symbol">:</span>
                                 <span className="timer-number">20</span>  
                             </div>    
-                                <div className="time-text">min</div>
-                                <div className="time-text1">Sec</div>
+                            <div className="time-text">min</div>
+                            <div className="time-text1">Sec</div>
                         </div>    
                     </div>
                 </div>
-                <div className="timer-text desktop-only">Remaining Time </div>
+                <span className="timer-text desktop-only">Remaining Time </span>
             </div>
         </>
     );
